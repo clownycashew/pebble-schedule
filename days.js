@@ -31,9 +31,17 @@ if (n == "Friday");
   Pebble.showSimpleNotificationOnPebble( n ,'Regular Schedule');
   }
   
-ajax({ url: 'http://simplyjs.io' }, function(data){
-  var headline = data.match(/<h1>(.*?)<\/h1>/)[1];
-  simply.title(headline);
-});
+var currentTime = new Date()
+var hours = currentTime.getHours()
+var minutes = currentTime.getMinutes()
+if (minutes < 10){
+minutes = "0" + minutes
+}
+document.write(hours + ":" + minutes + " ")
+if(hours > 11){
+document.write("PM")
+} else {
+document.write("AM")
+}​
 
 
