@@ -1,36 +1,27 @@
-var d=new Date();
-var weekday=new Array(7);
-weekday[0]="Sunday";
-weekday[1]="Monday";
-weekday[2]="Tuesday";
-weekday[3]="Wednesday";
-weekday[4]="Thursday";
-weekday[5]="Friday";
-weekday[6]="Saturday";
+var d = new Date();
+var n = d.getDay();
 
-var n = weekday[d.getDay()];
-
-if (n = Friday);
+if (n = 2 );
   { 
   simply.title( n ,
   'Regular Schedule');
   }
-if (n = "Tuesday");
+if (n = 3);
   { 
   simply.title( n ,
   'Explorer Schedule');
   }
-if (n = "Wednesday");
+if (n = 3);
   { 
   simply.title( n ,
   'Block Schedule');
   }
-if (n = "Thursday");
+if (n = 4);
   { 
   simply.title( n ,
   'Block Schedule');
   }
-if (n = "Friday");
+if (n = 5);
   { 
   simply.title( n ,
   'Regular Schedule');
