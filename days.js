@@ -10,7 +10,7 @@ weekday[6]="Saturday";
 
 var n = weekday[d.getDay()];
 
-if (n = "Monday");
+if (n = Friday);
   { 
   simply.title( n ,
   'Regular Schedule');
