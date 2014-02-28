@@ -14,7 +14,7 @@ if ( n == "Monday" );
   { 
   Pebble.showSimpleNotificationOnPebble( n ,'Regular Schedule');
   }
-else if ( n == "Tuesday");
+if ( n == "Tuesday");
   { 
   Pebble.showSimpleNotificationOnPebble( n ,'Explorer Schedule');
   }
@@ -22,7 +22,7 @@ if ( n == "Wednesday");
   { 
   Pebble.showSimpleNotificationOnPebble( n ,'Block Schedule');
   }
-else if ( n == "Thursday");
+if ( n == "Thursday");
   { 
   Pebble.showSimpleNotificationOnPebble( n ,'Block Schedule');
   }
