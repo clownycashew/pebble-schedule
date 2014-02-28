@@ -17,22 +17,22 @@ if (n = "Monday");
   simply.title( n ,
   'Regular Schedule');
   }
-if (n = "Tuesday");
+else if (n = "Tuesday");
   { 
   simply.title( n ,
   'Explorer Schedule');
   }
-if (n = "Wednesday");
+else if (n = "Wednesday");
   { 
   simply.title( n ,
   'Block Schedule');
   }
-if (n = "Thursday");
+else if (n = "Thursday");
   { 
   simply.title( n ,
   'Block Schedule');
   }
-if (n = "Friday");
+else if (n = "Friday");
   { 
   simply.title( n ,
   'Regular Schedule');
