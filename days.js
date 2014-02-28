@@ -10,23 +10,23 @@ weekday[6]="Saturday";
 
 var n = weekday[d.getDay()];
 
-if (name = "Monday" );
+if (n = "Monday" );
   { 
   simply.title( 'Regular Schedule');
   }
-if (name = "Tuesday");
+if (n = "Tuesday");
   { 
   simply.title( 'Explorer Schedule');
   }
-if (name = "Wednesday");
+if (n = "Wednesday");
   { 
   simply.title( 'Block Schedule');
   }
-if (name = "Thursday");
+if (n = "Thursday");
   { 
   simply.title( 'Block Schedule');
   }
-if (name = "Friday"
+if (n = "Friday"
   simply.title( 'Regular Schedule');
   }
   
