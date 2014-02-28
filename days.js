@@ -12,21 +12,21 @@ var n = weekday[d.getDay()];
 
 if (n = "Monday" );
   { 
-  simply.title( 'Regular Schedule');
+  Pebble.showSimpleNotificationOnPebble( 'Regular Schedule');
   }
 if (n = "Tuesday");
   { 
-  simply.title( 'Explorer Schedule');
+  Pebble.showSimpleNotificationOnPebble( 'Explorer Schedule');
   }
 if (n = "Wednesday");
   { 
-  simply.title( 'Block Schedule');
+  Pebble.showSimpleNotificationOnPebble( 'Block Schedule');
   }
 if (n = "Thursday");
   { 
-  simply.title( 'Block Schedule');
+  Pebble.showSimpleNotificationOnPebble( 'Block Schedule');
   }
 if (n = "Friday"
-  simply.title( 'Regular Schedule');
+  Pebble.showSimpleNotificationOnPebble( 'Regular Schedule');
   }
   
