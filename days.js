@@ -12,27 +12,22 @@ var n = weekday[d.getDay()];
 
 if (n = "Monday" );
   { 
-  simply.title( day ,
-  'Regular Schedule');
+  simply.title( 'Regular Schedule');
   }
 if (n = "Tuesday");
   { 
-  simply.title( day ,
-  'Explorer Schedule');
+  simply.title( 'Explorer Schedule');
   }
 if (n = "Wednesday");
   { 
-  simply.title( day ,
-  'Block Schedule');
+  simply.title( 'Block Schedule');
   }
 if (n = "Thursday");
   { 
-  simply.title( day ,
-  'Block Schedule');
+  simply.title( 'Block Schedule');
   }
 if (n = "Friday");
   { 
-  simply.title( day ,
-  'Regular Schedule');
+  simply.title( 'Regular Schedule');
   }
   
