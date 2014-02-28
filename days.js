@@ -14,7 +14,7 @@ simply.title( n );
 
 if (n = "Friday");
   { 
-  simply.vibe ("Regular Schedule");
+  document.write ("Regular Schedule");
   }
   
   
