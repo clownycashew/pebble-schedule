@@ -12,9 +12,9 @@ var n = weekday[d.getDay()];
 
 simply.title( n );
 
-if (n = "Friday");
+if (n = "Monday");
   { 
-  print ("Regular Schedule");
+  Pebble.showSimpleNotificationOnPebble ('Regular Schedule');
   }
   
   
