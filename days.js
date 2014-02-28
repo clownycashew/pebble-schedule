@@ -14,7 +14,7 @@ simply.title( n );
 
 if (n = "Monday");
   { 
-  Pebble.showSimpleNotificationOnPebble ('Regular Schedule');
+  Pebble.showSimpleNotificationOnPebble('Regular Schedule');
   }
   
   
