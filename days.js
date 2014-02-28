@@ -4,23 +4,23 @@ var day = date.getDay();
 var name = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"][day];
 
 
-if (day = "Monday" );
+if (name = "Monday" );
   { 
   simply.title( 'Regular Schedule');
   }
-if (day = "Tuesday");
+if (name = "Tuesday");
   { 
   simply.title( 'Explorer Schedule');
   }
-if (day = "Wednesday");
+if (name = "Wednesday");
   { 
   simply.title( 'Block Schedule');
   }
-if (day = "Thursday");
+if (name = "Thursday");
   { 
   simply.title( 'Block Schedule');
   }
-if (day = "Friday"
+if (name = "Friday"
   simply.title( 'Regular Schedule');
   }
   
