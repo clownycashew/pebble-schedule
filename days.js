@@ -10,27 +10,27 @@ weekday[6]="Saturday";
 
 var n = weekday[d.getDay()];
 
-if (n = "Monday");
+if (n = 1);
   { 
   Pebble.showSimpleNotificationOnPebble( n ,
   'Regular Schedule');
   }
-if (n = "Tuesday");
+if (n = 2);
   { 
   Pebble.showSimpleNotificationOnPebble( n ,
   'Explorer Schedule');
   }
-if (n = "Wednesday");
+if (n = 3);
   { 
   Pebble.showSimpleNotificationOnPebble( n ,
   'Block Schedule');
   }
-if (n = "Thursay");
+if (n = 4);
   { 
   Pebble.showSimpleNotificationOnPebble( n ,
   'Block Schedule');
   }
-if (n = "Friday");
+if (n = 5);
   { 
   Pebble.showSimpleNotificationOnPebble( n ,
   'Regular Schedule');
