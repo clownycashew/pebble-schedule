@@ -17,27 +17,27 @@ var day = now.getDayName();
 
 if (day = "Monday" );
   { 
-  simply.title( n ,
+  simply.title( day ,
   'Regular Schedule');
   }
 if (day = "Tuesday");
   { 
-  simply.title( n ,
+  simply.title( day ,
   'Explorer Schedule');
   }
 if (day = "Wednesday");
   { 
-  simply.title( n ,
+  simply.title( day ,
   'Block Schedule');
   }
 if (day = "Thursday");
   { 
-  simply.title( n ,
+  simply.title( day ,
   'Block Schedule');
   }
 if (day = "Friday");
   { 
-  simply.title( n ,
+  simply.title( day ,
   'Regular Schedule');
   }
   
