@@ -10,32 +10,26 @@ weekday[6]="Saturday";
 
 var n = weekday[d.getDay()];
 
-simply.title( n );
-
 if (n = "Monday");
   { 
   simply.title( n ,
   'Regular Schedule');
   }
-var n = weekday[d.getDay()];
 if (n = "Tuesday");
   { 
   simply.title( n ,
   'Explorer Schedule');
   }
-var n = weekday[d.getDay()];  
 if (n = "Wednesday");
   { 
   simply.title( n ,
   'Block Schedule');
   }
-var n = weekday[d.getDay()];
 if (n = "Thursday");
   { 
   simply.title( n ,
   'Block Schedule');
   }
-var n = weekday[d.getDay()];
 if (n = "Friday");
   { 
   simply.title( n ,
