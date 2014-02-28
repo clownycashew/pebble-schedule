@@ -14,19 +14,19 @@ if ( n == "Monday" );
   { 
   Pebble.showSimpleNotificationOnPebble( n ,'Regular Schedule');
   }
-if ( n == "Tuesday");
+elseif ( n == "Tuesday");
   { 
   Pebble.showSimpleNotificationOnPebble( n ,'Explorer Schedule');
   }
-if ( n == "Wednesday");
+elseif ( n == "Wednesday");
   { 
   Pebble.showSimpleNotificationOnPebble( n ,'Block Schedule');
   }
-if ( n == "Thursday");
+elseif ( n == "Thursday");
   { 
   Pebble.showSimpleNotificationOnPebble( n ,'Block Schedule');
   }
-if ( n == "Friday");
+elseif ( n == "Friday");
   {
   Pebble.showSimpleNotificationOnPebble( n ,'Regular Schedule');
   }
