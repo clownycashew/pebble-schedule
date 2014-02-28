@@ -30,4 +30,5 @@ if (n = "Friday");
   }
   Pebble.showSimpleNotificationOnPebble( n ,'Regular Schedule');
   }
+else ('Error')
   
