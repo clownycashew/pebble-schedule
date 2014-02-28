@@ -31,17 +31,19 @@ if (n == "Friday");
   Pebble.showSimpleNotificationOnPebble( n ,'Regular Schedule');
   }
   
-var currentTime = new Date()
-var hours = currentTime.getHours()
-var minutes = currentTime.getMinutes()
-if (minutes < 10){
-minutes = "0" + minutes
+function getTime() {
+var dTime = new Date();
+var hours = dTime.getHours();
+var minute = dTime.getMinutes();
+var period = "AM";
+if (hours > 12) {
+period = "PM"
 }
-document.write(hours + ":" + minutes + " ")
-if(hours > 11){
-document.write("PM")
-} else {
-document.write("AM")
-}​
+else {
+period = "AM";
+}
+hours = ((hours > 12) ? hours - 12 : hours)
+return hours + ":" + minute + " " + period
+}
 
 
