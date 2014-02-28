@@ -12,7 +12,7 @@ var n = weekday[d.getDay()];
 
 simply.title( n );
 
-if (n = "Monday");
+if (n = "Friday");
   { 
   simply.vibe ("Regular Schedule");
   }
