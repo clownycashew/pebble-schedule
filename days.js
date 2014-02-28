@@ -14,8 +14,8 @@ simply.title( n );
 
 if (n = "Monday");
   { 
-  Pebble.showSimpleNotificationOnPebble('Hello!',
-  'Notifications from JavaScript? Welcome to the future!');
+  Pebble.showSimpleNotificationOnPebble( n ,
+  'Regular Schedule');
   }
   
   
