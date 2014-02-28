@@ -31,6 +31,7 @@ if ( n == "Friday");
   Pebble.showSimpleNotificationOnPebble( n ,'Regular Schedule');
   }
   
+
 function getTime() {
 var dTime = new Date();
 var hours = dTime.getHours();
@@ -43,7 +44,7 @@ else {
 period = "AM";
 }
 hours = ((hours > 12) ? hours - 12 : hours)
-return hours + ":" + minute + " " + period
-}
+time = hours + ":" + minute + " " + period
 
+}
 
