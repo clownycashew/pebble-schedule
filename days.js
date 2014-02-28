@@ -10,29 +10,31 @@ weekday[6]="Saturday";
 
 var n = weekday[d.getDay()];
 
+simply.title( n );
+
 if (n = "Monday");
   { 
-  Pebble.showSimpleNotificationOnPebble( n ,
+  simply.title( n ,
   'Regular Schedule');
   }
 if (n = "Tuesday");
   { 
-  Pebble.showSimpleNotificationOnPebble( n ,
+  simply.title( n ,
   'Explorer Schedule');
   }
 if (n = "Wednesday");
   { 
-  Pebble.showSimpleNotificationOnPebble( n ,
+  simply.title( n ,
   'Block Schedule');
   }
 if (n = "Thursday");
   { 
-  Pebble.showSimpleNotificationOnPebble( n ,
+  simply.title( n ,
   'Block Schedule');
   }
 if (n = "Friday");
   { 
-  Pebble.showSimpleNotificationOnPebble( n ,
+  simply.title( n ,
   'Regular Schedule');
   }
   
