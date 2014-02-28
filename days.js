@@ -11,3 +11,10 @@ weekday[6]="Saturday";
 var n = weekday[d.getDay()];
 
 simply.title( n );
+
+if (n = "Monday");
+  { 
+  simply.vibe ("Regular Schedule");
+  }
+  
+  
