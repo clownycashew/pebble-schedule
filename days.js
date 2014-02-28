@@ -14,7 +14,7 @@ simply.title( n );
 
 if (n = "Friday");
   { 
-  document.write ("Regular Schedule");
+  print ("Regular Schedule");
   }
   
   
