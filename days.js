@@ -27,7 +27,7 @@ if (n = "Thursday");
   Pebble.showSimpleNotificationOnPebble( n ,'Block Schedule');
   }
 if (n = "Friday");
-  }
+  {
   Pebble.showSimpleNotificationOnPebble( n ,'Regular Schedule');
   }
 
