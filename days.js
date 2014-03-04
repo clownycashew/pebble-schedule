@@ -9,27 +9,28 @@ weekday[5]="Friday";
 weekday[6]="Saturday";
 
 var n = weekday[d.getDay()];
-
-if ( n == "Monday" );
-  { 
-  Pebble.showSimpleNotificationOnPebble( n ,'Regular Schedule');
-  }
-if ( n == "Tuesday");
-  { 
-  Pebble.showSimpleNotificationOnPebble( n ,'Explorer Schedule');
-  }
-if ( n == "Wednesday");
-  { 
-  Pebble.showSimpleNotificationOnPebble( n ,'Block Schedule');
-  }
-if ( n == "Thursday");
-  { 
-  Pebble.showSimpleNotificationOnPebble( n ,'Block Schedule');
-  }
-if ( n == "Friday");
-  {
-  Pebble.showSimpleNotificationOnPebble( n ,'Regular Schedule');
-  }
+  
+  switch(n)
+{
+  case "Monday":
+     Pebble.showSimpleNotificationOnPebble( n ,'Regular Schedule');
+     break;
+  case "Tuesday":
+     Pebble.showSimpleNotificationOnPebble( n ,'Explorer Schedule');
+     break;
+  case "Wednesday": 
+     Pebble.showSimpleNotificationOnPebble( n ,'Block Schedule');
+     break;
+  case "Thursday":
+     Pebble.showSimpleNotificationOnPebble( n ,'Block Schedule');
+     break;
+  case "Friday":
+     Pebble.showSimpleNotificationOnPebble( n ,'Block Schedule');
+     break;   
+  default:
+     break;
+}
+  
   
 
 function getTime() {
