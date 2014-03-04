@@ -13,19 +13,34 @@ var n = weekday[d.getDay()];
   switch(n)
 {
   case "Monday":
-     Pebble.showSimpleNotificationOnPebble( n ,'Regular Schedule');
+     simply.setText({
+  title: 'Regular Schedule!',
+  body: 'All classes',
+  }, true);
      break;
   case "Tuesday":
-     Pebble.showSimpleNotificationOnPebble( n ,'Explorer Schedule');
+     simply.setText({
+  title: 'Explorer Schedule!',
+  body: 'All classes plus Explorer period',
+  }, true);
      break;
   case "Wednesday": 
-     Pebble.showSimpleNotificationOnPebble( n ,'Block Schedule');
+     simply.setText({
+  title: 'Block Schedule!',
+  body: 'English, Graphics, Spanish',
+  }, true);
      break;
   case "Thursday":
-     Pebble.showSimpleNotificationOnPebble( n ,'Block Schedule');
+     simply.setText({
+  title: 'Block Schedule!',
+  body: 'APUSH, APES, Precalc',
+  }, true);
      break;
   case "Friday":
-     Pebble.showSimpleNotificationOnPebble( n ,'Block Schedule');
+     simply.setText({
+  title: 'Regular Schedule!',
+  body: 'All classes',
+  }, true);
      break;   
   default:
      break;
